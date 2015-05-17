@@ -57,6 +57,6 @@ poem = randomly_based[1]+'<br>'+randomly_based[2]+'<br>'+randomly_based[3]+'<br>
 
 client = Tumblr::Client.new
 
-client.text("based-poetry.tumblr.com", {:body => poem, :tags => ['lil+b', 'based', 'basedgod']}) 
+client.text("based-poetry.tumblr.com", {:body => poem, :tags => ['lil-b', 'based', 'basedgod']}) 
 
 

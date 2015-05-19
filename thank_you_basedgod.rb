@@ -14,7 +14,7 @@ http.read_timeout = 2000
 
 song_index = RapGenius.search_by_artist("Lil B")
 
-basedgod = song_index[1].artist
+basedgod = song_index[0].artist
 
 song_ids = []
 songs = []
